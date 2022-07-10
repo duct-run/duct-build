@@ -1,0 +1,79 @@
+# generic
+*.bak
+*.core
+*.log
+*.old
+*.orig
+*.rej
+*.sw[p-z]
+*~
+.#*
+.*.sw[p-z]
+
+# macos
+*.profraw
+.DS_Store
+.VolumeIcon.icns
+
+# windows
+*.lnk
+[Dd]esktop.ini
+[Tt]humbs.db
+
+# c
+*.o
+*.so
+
+# jekyll
+.jekyll-metadata
+.sass-cache/
+_site/
+
+# python
+*.py[cod]
+__pycache__/
+
+# ruby
+Gemfile.lock
+
+# shc
+*.x
+*.x.c
+
+# terraform
+**/.terraform/
+**/terraform.tfstate.d/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.*.log
+
+# misc
+**/.cache/
+
+# archives
+**/*.7z
+**/*.bz2
+**/*.gz
+**/*.tar.*
+**/*.xz
+**/*.zip
+
+# main plugins
+plug/main/
+plug/main
+
+# vendor plugins
+plug/vendor/*
+
+# attic
+attic/
+
+# debug
+**/debug.sh
+debug/
+
+# excludes
+!.git
+!.git_keep
+!.gitkeep
